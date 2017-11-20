@@ -1,0 +1,6 @@
+{
+  "name": "nuclear-throne",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
