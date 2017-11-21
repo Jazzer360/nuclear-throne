@@ -2,15 +2,47 @@
 <html lang="en">
 
 <head>
+  <title>Run Tracker</title>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nuclear Throne</title>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
 
 <body>
-  Nuclear Throne
+  <div class="container">
+    <div id="current-run" class="row">
+      <div class="col">
+        <div class="run-stats">
+          <p>Character: <span class="char"></span></p>
+          <p>Kills: <span class="kills"></span></p>
+          <p>World: <span class="world"></span></p>
+          <p>Level: <span class="level"></span></p>
+          <p>Loop: <span class="loops"></span></p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="player-stats">
+          <p>Health: <span class="health"></span></p>
+          <p>Last attacker: <span class="lasthit"></span></p>
+          <p>Crown: <span class="crown"></span></p>
+          <p>Weapon1: <span class="weapon1"></span></p>
+          <p>Weapon2: <span class="weapon2"></span></p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="mutations">
+          <ul class="mutation-list">
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>
